@@ -1,0 +1,88 @@
+
+.a-button {
+  display: list-item;
+  width: 150px;
+  height: 25px;
+  margin-bottom: 1%;
+
+  padding-top: 7px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  line-height: 14px;
+}
+
+.a-button-usual-color {
+  background: #009A63;
+}
+
+.a-button-usual-color:hover {
+  background-color: #7FBF7F;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    position: relative;
+    display: flex;
+
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper {
+    position: relative;
+    border: solid green 2px;
+    display: flex;
+
+  }
+}
+
+
+.left_column {
+  flex: 1;
+  border: solid green 2px;
+  padding-left: 2%;
+}
+
+
+/* Десктопный */
+@media screen and (min-width: 1212px) {
+  .images {
+    background-image: url("src/app/main/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 4;
+  }
+}
+
+/* Планшетный */
+@media screen and (min-width: 807px) and (max-width: 1212px) {
+  .images {
+    background-image: url("src/app/main/pepe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    flex: 4;
+  }
+
+}
+
+/* Мобильный */
+@media screen and (max-width: 807px) {
+  .images {
+    background-image: url("src/app/main/stickman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    flex: 4;
+  }
+}
+
+

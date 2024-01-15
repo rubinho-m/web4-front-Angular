@@ -1,0 +1,22 @@
+<head>
+  <title>Лабораторная работа 4</title>
+</head>
+
+<div class="header">
+  <h2>Рубин Михаил Дмитриевич, P3211, Вариант 34238</h2>
+</div>
+
+<div class="clock">
+  <p class="datetime">
+    <span class="datetime_time"> {{currentTime}} </span>
+    <br/>
+    <span class="datetime_date"> {{currentDate}} </span>
+  </p>
+
+  <p>
+    <a *ngIf="getUserStatus()" routerLink="/points" class="clock index-menu_link">Главная</a>
+    <a *ngIf="!getUserStatus()" routerLink="/auth" class="clock index-menu_link">Авторизация</a>
+  </p>
+</div>
+
+

@@ -1,0 +1,42 @@
+
+<form>
+    <div class="x_choose">
+        <p>Выберите значение x</p>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(-3)" disabled="true">-3</a>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(-2)" disabled="true">-2</a>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(-1)" disabled="true">-1</a>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(0)" disabled="true">0</a>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(1)" disabled="true">1</a>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(2)" disabled="true">2</a>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(3)" disabled="true">3</a>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(4)" disabled="true">4</a>
+        <a class="a-button a-button-usual-color x-button" (click)="setX(5)" disabled="true">5</a>
+    </div>
+    <br>
+    <div class="y_choose">
+        <label>
+            Введите значение y <br>
+            <input type="text" name="y_text" id="y_input" class="y-input" placeholder="-5..5">
+        </label>
+        <br>
+    </div>
+    <div class="r_choose">
+        <p>Выберите значение R</p>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(-3)" disabled="true">-3</a>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(-2)" disabled="true">-2</a>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(-1)" disabled="true">-1</a>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(0)" disabled="true">0</a>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(1)" disabled="true">1</a>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(2)" disabled="true">2</a>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(3)" disabled="true">3</a>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(4)" disabled="true">4</a>
+        <a class="a-button a-button-usual-color r-button" (click)="setR(5)" disabled="true">5</a>
+    </div>
+</form>
+
+<p><input class="check check_button" id="check_button" type="submit" (click)="onSubmit()" value="Проверить"></p>
+
+
+
+
+

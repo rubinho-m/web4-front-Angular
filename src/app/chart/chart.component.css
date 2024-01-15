@@ -1,0 +1,10 @@
+canvas {
+  background: rgba(113,136,177, 0.5);
+  /*width: 40%;*/
+  /*aspect-ratio: 1/1;*/
+}
+
+.chart {
+  text-align: right;
+}
+

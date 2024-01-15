@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+  <input type="checkbox" id="chk" aria-hidden="true">
+
+  <div class="signup">
+    <form>
+      <label for="chk" aria-hidden="true">Регистрация</label>
+      <input type="text" class="reg-login" name="txt" placeholder="Имя пользователя">
+      <input type="password" class="reg-password" name="pswd" placeholder="Пароль">
+    </form>
+    <button (click)="register()">Регистрация</button>
+  </div>
+
+  <div class="login">
+    <form>
+      <label for="chk" aria-hidden="true">Авторизация</label>
+      <input type="text" class="auth-login" name="txt" placeholder="Имя пользователя">
+      <input type="password" class="auth-password" name="pswd" placeholder="Пароль">
+
+    </form>
+    <button (click)="login()">Войти</button>
+  </div>
+</div>
+</body>
+</html>

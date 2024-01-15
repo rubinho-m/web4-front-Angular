@@ -1,0 +1,47 @@
+table {
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td:first-child {
+    background: #009A63;
+    color: white;
+    padding: 10px 20px;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+td {
+    background: #D0F0C0;
+}
+
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+.check {
+    background-color: #009A63;
+    border: green;
+    color: white;
+
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+
+.check:hover {
+    background-color: #7FBF7F;
+}
+
+.clear_button {
+    margin-top: 1%;
+    margin-left: 45%;
+}

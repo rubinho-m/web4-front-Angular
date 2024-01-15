@@ -1,0 +1,20 @@
+<p style="text-align: left; font-style: italic; font-size: 16px; padding-right: 1%" #userLabel></p>
+
+<div class="nav-buttons">
+<a routerLink="/home" class="a-button a-button-usual-color">Домой</a>
+<a routerLink="/home" (click)="logOut()" class="a-button a-button-usual-color">Выход</a>
+</div>
+
+<div class="wrapper">
+  <div class="left_column">
+    <app-form></app-form>
+  </div>
+  <div class="images">
+    <app-chart></app-chart>
+  </div>
+
+</div>
+<div>
+  <app-points-list></app-points-list>
+</div>
+

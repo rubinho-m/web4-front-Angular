@@ -1,0 +1,41 @@
+.clock {
+  background-color: antiquewhite;
+  text-align: center;
+  font-family: monospace;
+  color:green;
+  /*opacity: 0.6;*/
+  text-decoration: none;
+
+}
+.datetime_time {
+
+  font-size: 40px;
+}
+.datetime_date {
+  font-size: 20px;
+}
+
+.index-menu_link {
+  display: inline-block;
+  height: 25px;
+  padding: 8px 8px 8px 8px;
+  width: auto;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #009A63;
+}
+
+.index-menu_link:hover {
+  background-color: #7FBF7F;
+}
+
+.header {
+  background: green;
+  opacity: 0.5;
+  color: white;
+  font-family: monospace;
+  font-size: 14px;
+  text-align: center;
+}
+
